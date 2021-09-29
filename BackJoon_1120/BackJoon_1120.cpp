@@ -2,10 +2,35 @@
 //
 
 #include <iostream>
+#include <string>
+#include <algorithm>
+
+using namespace std;
+
+int getDiffer(string a, string b) {
+	int differCount = 0;
+	for (int index = 0; index < a.length(); index++)
+	{
+		if (a.at(index) != b.at(index)) differCount++;
+	}
+	return differCount;
+}
+
+int getMinDiffer(string a, string b) {
+	int minDiffer = 50;
+	for (int i = 0; i <= b.length() - a.length(); i++)
+	{
+		minDiffer = min(minDiffer, getDiffer(a, b.substr(i, a.length())));
+	}
+	return minDiffer;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	string a, b;
+	cin >> a;
+	cin >> b;
+	cout << getMinDiffer(a, b);
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
