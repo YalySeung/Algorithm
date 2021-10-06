@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programmers_Bruteforce_Mock
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programmers_DFSBFS_TargetNumber", "Programmers_DFSBFS_TargetNumber\Programmers_DFSBFS_TargetNumber.vcxproj", "{BDB106AD-21D9-40FD-81E4-72ECB15C2C69}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programmers_DFSBFS_Network", "Programmers_DFSBFS_Network\Programmers_DFSBFS_Network.vcxproj", "{745B0C37-F079-4799-A755-848FE3712587}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{BDB106AD-21D9-40FD-81E4-72ECB15C2C69}.Release|x64.Build.0 = Release|x64
 		{BDB106AD-21D9-40FD-81E4-72ECB15C2C69}.Release|x86.ActiveCfg = Release|Win32
 		{BDB106AD-21D9-40FD-81E4-72ECB15C2C69}.Release|x86.Build.0 = Release|Win32
+		{745B0C37-F079-4799-A755-848FE3712587}.Debug|x64.ActiveCfg = Debug|x64
+		{745B0C37-F079-4799-A755-848FE3712587}.Debug|x64.Build.0 = Debug|x64
+		{745B0C37-F079-4799-A755-848FE3712587}.Debug|x86.ActiveCfg = Debug|Win32
+		{745B0C37-F079-4799-A755-848FE3712587}.Debug|x86.Build.0 = Debug|Win32
+		{745B0C37-F079-4799-A755-848FE3712587}.Release|x64.ActiveCfg = Release|x64
+		{745B0C37-F079-4799-A755-848FE3712587}.Release|x64.Build.0 = Release|x64
+		{745B0C37-F079-4799-A755-848FE3712587}.Release|x86.ActiveCfg = Release|Win32
+		{745B0C37-F079-4799-A755-848FE3712587}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
